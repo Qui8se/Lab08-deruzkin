@@ -75,22 +75,22 @@
 
 
 
-// string correctPassword = "qwerty123";
-// int number = 0;
-// while (true)
-// {
-//     Console.Write("Введите пароль от личного кабинета: ");
-//     string password = Console.ReadLine();
+string correctPassword = "qwerty123";
+int number = 0;
+while (true)
+{
+    Console.Write("Введите пароль от личного кабинета: ");
+    string password = Console.ReadLine();
 
-//     if (password == correctPassword)
-//     {
-//         Console.WriteLine("Доступ разрешён");
-//         break;
-//     }
-//     Console.WriteLine("Неверный пароль, попробуйте снова");
-//     number++;
-// }
-// Console.WriteLine($"Кол-во неудачных попыток: {number}");
+    if (password == correctPassword)
+    {
+        Console.WriteLine("Доступ разрешён");
+        break;
+    }
+    Console.WriteLine("Неверный пароль, попробуйте снова");
+    number++;
+}
+Console.WriteLine($"Кол-во неудачных попыток: {number}");
 
 
 
@@ -194,21 +194,17 @@
 
 
 
-
-
-
-
 //№7
 
-int n = 1;
-double count = 0;
-while (n <= 7)
-{
-    Console.WriteLine($"День {n}: ");
-    double temp = double.Parse(Console.ReadLine());
-    count += temp;
-    Console.WriteLine($"{n} день - {temp} градусов");
-    n++;
-}
-double average = count / 7;
-Console.WriteLine($"Средняя температура за неделю: {average}");
+// int n = 1;
+// double count = 0;
+// while (n <= 7)
+// {
+//     Console.WriteLine($"День {n}: ");
+//     double temp = double.Parse(Console.ReadLine());
+//     count += temp;
+//     Console.WriteLine($"{n} день - {temp} градусов");
+//     n++;
+// }
+// double average = count / 7;
+// Console.WriteLine($"Средняя температура за неделю: {average}");
